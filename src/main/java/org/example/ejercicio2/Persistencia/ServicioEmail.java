@@ -1,6 +1,12 @@
 package org.example.ejercicio2.Persistencia;
 
+import io.github.cdimascio.dotenv.Dotenv;
 import org.example.ejercicio2.Modelo.EnvioMensaje;
+import org.simplejavamail.api.email.Email;
+import org.simplejavamail.api.mailer.Mailer;
+import org.simplejavamail.api.mailer.config.TransportStrategy;
+import org.simplejavamail.email.EmailBuilder;
+import org.simplejavamail.mailer.MailerBuilder;
 
 
 public class ServicioEmail implements EnvioMensaje {
